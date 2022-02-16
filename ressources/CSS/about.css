@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+html{
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+}
+body{
+    margin: 0;
+    position: relative;
+    background-image: url('../Images/background.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    position: absolute;
+    width: 1200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 1;
+}
+#logo_container img{
+    width: 100px;
+    height: 100px;
+}
+nav ul {
+    margin-right: 5rem;
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+    font-size: 1.5rem;
+    
+}
+/* Main section */
+main {
+    max-width: 100%;
+    padding: 5rem;
+    padding-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    justify-content: space-around;
+    align-items: center;
+}
+.section{
+    display: grid;
+}
+#info_content h1{
+    font-size: 4rem;
+}
+#info_content p{
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+    line-height: 2rem;
+}
+#info_content a{
+    background-color: #555555a2;
+    padding: 1rem 5rem;
+    border-radius: 5rem;
+    transition: .4s linear;
+    text-align: center;
+}
+#info_content a:hover{
+    background-color: white;
+    color: #555555a2;
+}
+/* images section */ 
+#images_section{
+    display: grid;
+    grid-template-columns: repeat(2,250px);
+    column-gap: 2.5rem;
+    row-gap:1.5rem;
+}
+.images_card{
+    height: 300px;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    transition: .4s ease-in;
+}
+.images_card:hover{
+    transform: scale(1.1);
+}
+
+#card1{
+    background-image: url('../Images/card1.jfif') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#card2{
+    background-image: url('../Images/card2.jfif') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#card3{
+    background-image: url('../Images/card3.jfif') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#card4{
+    background-image: url('../Images/card4.jfif') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
